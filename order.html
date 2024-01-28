@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bakery!</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <a href="index.html">
+                <li>Home</li>
+            </a>
+            <a href="nutrition-facts.html">
+                <li>Nutrition Facts</li>
+            </a>
+            <a href="popular-items.html">
+                <li>Popular Items</li>
+            </a>
+            <a href="#order.html">
+                <li>Place an Order</li>
+            </a>
+        </ul>
+    </div>
+    <div class="Header">
+        <header>Welcome to the Bakery!</header>
+    </div>
+    <div class="Order">
+        <h3>To place an order, fill out the form below:</h3>
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <input type="checkbox" id="item1" name="item1" value="Cinnamon Roll">
+            <label for="item1"> Cinnamon Roll</label><br>
+            <input type="checkbox" id="item2" name="item2" value="Sourdough Bread">
+            <label for="item2"> Sourdough Bread</label><br>
+            <input type="checkbox" id="item3" name="item3" value="Croissant">
+            <label for="item3"> Croissant</label><br>
+            <label for="quantity">Quantity:</label><br>
+            <input type="text" id="quantity" name="quantity"><br>
+            <input type="submit" value="Submit" formaction="index.html">
+        </form>
+    </div>
+</body>
+
+</html>
